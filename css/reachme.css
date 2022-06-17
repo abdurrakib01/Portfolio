@@ -1,0 +1,66 @@
+.re-navbar {
+    width: 100%;
+    height: 310px;
+    /* background: chocolate; */
+}
+
+.re-profile-background {
+    width: 100%;
+    height: 310px;
+    background: url(../img/back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.re-content {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(17, 22, 31);
+}
+
+.link {
+    width: 700px;
+    height: 380px;
+    border: 2px solid rgba(252, 104, 85, 0.8);
+    float:left;
+    margin-top: 30px;
+    margin-left: 310px;
+    border-radius: 20px;
+}
+
+.button {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    border-radius: 10px;
+    border: 2px solid rgba(252, 104, 85, 0.5);
+    background-color: rgb(35, 45, 63);
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.button:hover{
+    color: rgb(252, 104, 85);
+    transition: 0.4s;
+}
+
+@media screen and (max-width:1200px) {
+    .link {
+        margin-left: 130px;
+    }
+    .re-content {
+        height: 1800px;
+        
+    }
+}
